@@ -16,7 +16,17 @@ import nft5 from "./nft5.png";
 import nft6 from "./nft6.png";
 import logo from "./logo.png";
 import user from "./user.png";
+import hero from "./hero.png";
+import service1 from "./service1.png";
+import service2 from "./service2.png";
+import service3 from "./service3.png";
+import service4 from "./service4.png";
+import user2 from "./user2.jpeg";
+import user3 from "./user3.jpg";
+import user4 from "./user4.jpeg";
+import letter from "./letter.jpg"
 
 export default {
-    creatorbackground1,creatorbackground2,creatorbackground3,creatorbackground4,creatorbackground5,creatorbackground6,creatorbackground7,creatorbackground9,creatorbackground11,nft,nft1,nft2,nft3,nft4,nft5,nft6,logo,user
+    creatorbackground1,creatorbackground2,creatorbackground3,creatorbackground4,creatorbackground5,creatorbackground6,creatorbackground7,creatorbackground9,creatorbackground11,nft,nft1,nft2,nft3,nft4,nft5,nft6,logo,user,hero,service1
+    ,service2,service3,service4,user2,user3,user4,letter
 };

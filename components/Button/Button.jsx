@@ -1,8 +1,14 @@
 import React from "react";
 
-const Button = () =>
-{
-    return <div>Button</div>
-};
+import Style from "./Button.module.css";
+
+
+const Button = ({ btnName, handleClick}) => {
+    return (
+      <div className={Style.box}>
+        <button className={Style.button} onClick={() => handleClick  }>{btnName}</button>
+      </div>
+    );
+  };
 
 export default Button;

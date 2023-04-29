@@ -23,7 +23,7 @@ const Profile = ({ currentAccount }) => {
 
         <div className={Style.profile_account_info}>
           <p>Bhaiyu's</p>
-          <small>{currentAccount.slice(0, 18)}..</small>
+          <small>ox129854643654df444..</small>
         </div>
       </div>
 
