@@ -7,8 +7,7 @@ import {
 
 //INTERNAL IMPORT
 import Style from "./Collection.module.css";
-
-import DaysComponent from "./DaysComponents/DaysComponent"
+import DaysComponent from "./DaysComponents/DaysComponents";
 import images from "../../img";
 
 const Collection = () => {
@@ -19,7 +18,7 @@ const Collection = () => {
   const CardArray = [
     {
       background: images.creatorbackground1,
-      user: images.user,
+      user: images.user1,
     },
     {
       background: images.creatorbackground2,
@@ -46,7 +45,7 @@ const Collection = () => {
       user: images.user,
     },
     {
-      background: images.creatorbackground11,
+      background: images.creatorbackground9,
       user: images.user,
     },
   ];
@@ -79,7 +78,7 @@ const Collection = () => {
   const followingArray = [
     {
       background: images.creatorbackground1,
-      user: images.user,
+      user: images.user1,
     },
     {
       background: images.creatorbackground2,
@@ -106,7 +105,7 @@ const Collection = () => {
       user: images.user,
     },
     {
-      background: images.creatorbackground8,
+      background: images.creatorbackground11,
       user: images.user,
     },
   ];
